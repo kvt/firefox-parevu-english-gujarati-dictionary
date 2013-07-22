@@ -1,0 +1,29 @@
+
+#Parevu-Gujarati-Dictionary-Div {
+	height:auto; 
+	color: black;
+	background-color:#FFFFCC; 
+	border: 2px solid #FF9900;
+	margin:0; 
+	max-width:350px; 
+}
+#Parevu-Gujarati-Dictionary-Div td {
+   white-space: pre-wrap;
+   font-size: 12px;
+}
+.PGDHeading {
+   font-weight: bold;
+   font-size: 15px;
+}
+.PGDDetails {
+   white-space: pre-wrap;
+   font-size: 12px;
+}
+#parevu-powered-by {
+   text-align: center;
+   color: gray;
+   font-size: 12px;
+   text-decoration: none;
+   cursor: pointer;
+}
+

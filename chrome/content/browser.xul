@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://gujaratidictionary/skin/skin.css" type="text/css"?>
+<?xml-stylesheet href="skin.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://gujaratidictionary/locale/translations.dtd">
+
+<overlay id="gujaratidictionary"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		xmlns:html="http://www.w3.org/1999/xhtml">
+
+
+		<script src="gujaratiDictionary.js" />
+		
+   <popup id="contentAreaContextMenu">
+      <menuitem id="gujaratiDictionaryRightClickMenu"
+                label="Parevu English Gujarati Dictionary Translate"
+                accesskey="P" oncommand="gujaratiDictionary.show('')"/>
+   </popup>		
+	<popupset>
+		<menupopup id="menu_ToolsPopup"> 
+			<menuitem label="&rungujaratidictionary;" key="gujarati-dictionary-run-key" oncommand="gujaratiDictionary.run()"/> 
+		</menupopup>
+		
+		<panel id="gujaratidictionary-panel" style="background-color:#666" class="gujaratidictionary-panel">
+				<html:table id="Parevu-Gujarati-Dictionary-Div">
+					<html:tr>
+						<html:td class="PGDHeading" id="parevu-0-0">No.</html:td>
+						<html:td class="PGDHeading" id="parevu-1-0">Word</html:td>
+						<html:td class="PGDHeading" id="parevu-2-0">Type</html:td>
+						<html:td class="PGDHeading" id="parevu-3-0">Pronounciation</html:td>
+						<html:td class="PGDHeading" id="parevu-4-0">Meaning</html:td>
+					</html:tr>
+					<html:tr>
+						<html:td id="parevu-0-1">Loading....</html:td>
+						<html:td id="parevu-1-1"></html:td>
+						<html:td id="parevu-2-1"></html:td>
+						<html:td id="parevu-3-1"></html:td>
+						<html:td id="parevu-4-1"></html:td>
+					</html:tr>
+					<html:tr>
+						<html:td id="parevu-0-2"></html:td>
+						<html:td id="parevu-1-2"></html:td>
+						<html:td id="parevu-2-2"></html:td>
+						<html:td id="parevu-3-2"></html:td>
+						<html:td id="parevu-4-2"></html:td>
+					</html:tr>
+					<html:tr>
+						<html:td id="parevu-0-3"></html:td>
+						<html:td id="parevu-1-3"></html:td>
+						<html:td id="parevu-2-3"></html:td>
+						<html:td id="parevu-3-3"></html:td>
+						<html:td id="parevu-4-3"></html:td>
+					</html:tr>
+					<html:tr>
+						<html:td id="parevu-powered-by" colspan="5" onclick="gujaratiDictionary.close();gBrowser.selectedTab = gBrowser.addTab('http://www.tools4all.net');">Powered By www.tools4all.net</html:td>
+					</html:tr>
+				</html:table>
+		</panel>
+	</popupset>
+
+		<keyset>
+			<key id="gujarati-dictionary-run-key" modifiers="accel alt shift" key="G" oncommand="gujaratiDictionary.run()"/>
+		</keyset>
+
+</overlay>

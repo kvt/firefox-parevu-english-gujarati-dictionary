@@ -1,0 +1,9 @@
+content     gujaratidictionary    chrome/content/
+content     gujaratidictionary    chrome/content/ contentaccessible=yes
+
+style	chrome://global/content/customizeToolbar.xul	chrome://gujaratidictionary/skin/skin.css
+skin	gujaratidictionary	classic/2.0	skin/
+
+overlay chrome://browser/content/browser.xul chrome://gujaratidictionary/content/browser.xul
+
+locale	gujaratidictionary	en-US	locale/en-US/

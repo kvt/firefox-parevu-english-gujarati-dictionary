@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>ketantada@gmail.com</em:id>
+		<em:name>Parevu English-Gujarati Dictionary</em:name>
+		<em:version>2.3</em:version>
+		<em:type>2</em:type>
+		<em:creator>Ketan Tada</em:creator>
+		<em:description>
+Double click on any English word and you will get meaning in Gujarati.
+You can use Parevu English Gujarati Dictionary in three way.
+
+1) Pres Ctrl Key and Double click on any word
+2) Select any word with mouse and press Ctrl+Alt+Shift+G
+3) Select any word with mouse and Right Click anywhere in document and click on "Parevu English Gujarati Dictionary Translate"
+
+Enjoy Parevu Dictionary and dont miss any word!!
+
+		</em:description>
+		<em:homepageURL>http://www.tools4all.net/</em:homepageURL>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>2.0</em:minVersion>
+				<em:maxVersion>19.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>      
+</RDF>
